@@ -12,8 +12,8 @@
   <DefaultLocale>de-DE</DefaultLocale>
   <DisplayName DefaultValue="Mawi-Verarbeitung" />
   <Description DefaultValue="Startet die Verarbeitung einer Mawi-E-Mail oder eines Anhangs." />
-  <IconUrl DefaultValue="https://<DEINE-DOMAIN>/assets/icon-64.png" />
-  <HighResolutionIconUrl DefaultValue="https://<DEINE-DOMAIN>/assets/icon-128.png" />
+  <IconUrl DefaultValue="https://adrianeppler.github.io/mawi-addin/assets/icon-64.png" />
+  <HighResolutionIconUrl DefaultValue="https://adrianeppler.github.io/mawi-addin/assets/icon-128.png" />
   <SupportUrl DefaultValue="https://epplerfenster.de" />
 
   <Hosts>
@@ -29,7 +29,7 @@
   <FormSettings>
     <Form xsi:type="ItemRead">
       <DesktopSettings>
-        <SourceLocation DefaultValue="https://<DEINE-DOMAIN>/home.html" />
+        <SourceLocation DefaultValue="https://adrianeppler.github.io/mawi-addin/home.html" />
       </DesktopSettings>
     </Form>
   </FormSettings>
@@ -80,12 +80,12 @@
 
     <Resources>
       <bt:Images>
-        <bt:Image id="icon16" DefaultValue="https://<DEINE-DOMAIN>/assets/icon-16.png" />
-        <bt:Image id="icon32" DefaultValue="https://<DEINE-DOMAIN>/assets/icon-32.png" />
-        <bt:Image id="icon80" DefaultValue="https://<DEINE-DOMAIN>/assets/icon-80.png" />
+        <bt:Image id="icon16" DefaultValue="https://adrianeppler.github.io/mawi-addin/assets/icon-16.png" />
+        <bt:Image id="icon32" DefaultValue="https://adrianeppler.github.io/mawi-addin/assets/icon-32.png" />
+        <bt:Image id="icon80" DefaultValue="https://adrianeppler.github.io/mawi-addin/assets/icon-80.png" />
       </bt:Images>
       <bt:Urls>
-        <bt:Url id="functionFile" DefaultValue="https://<DEINE-DOMAIN>/functions.html" />
+        <bt:Url id="functionFile" DefaultValue="https://adrianeppler.github.io/mawi-addin/functions.html" />
       </bt:Urls>
       <bt:ShortStrings>
         <bt:String id="groupLabel" DefaultValue="Mawi Tools" />
@@ -97,3 +97,4 @@
     </Resources>
   </VersionOverrides>
 </OfficeApp>
+
