@@ -6,11 +6,10 @@
   xmlns:mailappor="http://schemas.microsoft.com/office/mailappversionoverrides/1.0"
   xsi:type="MailApp">
 
-  <!-- Gültige GUID, kannst du so übernehmen oder deine eigene gültige GUID nutzen -->
   <Id>8f9b5f31-65c1-4b4e-9d3c-6e37adf8f2b4</Id>
 
   <Version>1.0.0.1</Version>
-  <ProviderName>Eppler Fensterbau</ProviderName>
+  <ProviderName>epplerfenster</ProviderName>
   <DefaultLocale>de-DE</DefaultLocale>
   <DisplayName DefaultValue="Mawi-Verarbeitung" />
   <Description DefaultValue="Startet die Verarbeitung einer Mawi-E-Mail oder eines Anhangs." />
@@ -49,7 +48,7 @@
   <DisableEntityHighlighting>false</DisableEntityHighlighting>
 
   <!-- VersionOverrides für Ribbon-Button -->
-  <VersionOverrides xmlns="http://schemas.microsoft.com/office/mailappversionoverrides"
+  <VersionOverrides xmlns="http://schemas.microsoft.com/office/mailappversionoverrides/1.0"
                     xsi:type="VersionOverridesV1_0">
     <!-- Requirements hier erstmal weglassen, ist optional -->
 
@@ -102,3 +101,4 @@
     </Resources>
   </VersionOverrides>
 </OfficeApp>
+
